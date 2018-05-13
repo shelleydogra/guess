@@ -1,0 +1,56 @@
+/*
+   New Perspectives on JavaScript, 2nd Edition
+   Final Project
+
+   Author:   Shelley Dogra
+   Date:     May 12, 2018
+
+   Filename: style.css
+
+
+   table background color: #477747
+   button color: #55dd55
+*/
+
+body {
+    font-family: sans-serif;
+}
+
+table {
+    border: 3px outset #666;
+    background-color: #477747;
+    text-align: center;
+    border-spacing: 8px;
+}
+
+table td {
+    padding: 5px;
+    border: 2px inset #444;
+}
+
+table .logo {
+    background-color: #fff;
+    width: 120px;
+}
+
+table .heading {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+table #instructions, #guessesTextbox {
+    font-size: 12px;
+    color: #ff0000;
+}
+
+input.textField {
+    border: 2px inset #666;
+}
+
+input[type=button] {
+
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #55dd55;
+    margin-top: 0px;
+}

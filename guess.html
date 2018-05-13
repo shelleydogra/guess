@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Guess a number game!</title>
+    <meta charset="UTF-8" />
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+  </head>
+
+  <body onload="init()">
+
+     <form name="guessgame" id="guessgame" method="post" action="#"> 
+         <table>
+          	<tbody>
+          		<tr>
+              		<td rowspan="5" class="logo"> <img src="gamelogo.jpg" alt="game logo"/> </td>
+              		<td colspan="2" class="heading">Number Range</td>
+          			<td rowspan="2"><input type="button" value="Start" onclick="start()"></td>
+          		</tr>
+          		<tr>
+          			<td>From: <br /> <input name="fromTextbox" id="fromTextbox" class="textField" size="10"></td>
+          			<td>To: <br /> <input name="toTextbox" id="toTextbox" class="textField" size="10"></td>
+          		</tr>
+          		<tr>
+          			<td colspan="3"> <input name="instructions" id="instructions" class="textField"  size="50"></td>
+          		</tr>
+          		<tr>
+          			<td colspan="3"> <input name="guessTextbox" id="guessTextbox" class="textField" size="10"> <br /> <input type="button" value="Guess" onclick="guess()"> </td>
+          		</tr>
+          		<tr>
+          			<td colspan="3"> <input name="guessesTextbox" id="guessesTextbox" class="textField" size="50"></td>
+          		</tr>
+    
+          	</tbody>
+      </table>
+    </form>      
+
+  </body>
+
+</html>
